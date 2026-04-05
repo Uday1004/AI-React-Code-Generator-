@@ -72,7 +72,7 @@ function Live() {
 
       try {
         const response = await fetch(
-          "https://ai-code-generator-backend-hkyt.onrender.com/prompt",
+          "http://localhost:8010/prompt",
           {
             method: "POST",
             headers: { "Content-Type": "application/json" },
